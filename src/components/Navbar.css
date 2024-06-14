@@ -1,0 +1,57 @@
+.navbar {
+    margin-bottom: 20px;
+  }
+    
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-icon {
+    margin-right: 5px;
+    font-size: 18px;
+    color: #8c00ff;
+  }
+    
+  .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+    position: relative;
+    font-weight: bold;
+
+  }
+  
+  .nav-link::before {
+    content: ''; 
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #9307ff;
+    transform: scaleX(0); 
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff; 
+  }
+    
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .nav-item {
+      margin-bottom: 10px;
+    }
+  }
+  
