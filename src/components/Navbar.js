@@ -6,7 +6,7 @@ import { FaDiagramProject } from "react-icons/fa6";
 import { GrTechnology } from "react-icons/gr";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
-import MinnuLogo from './Assets/minnu_logo.png';
+import MinnuLogo from './Assets/minnu.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <a className="navbar-brand" href="#2">
           <img src={MinnuLogo} alt="Minnu" />
