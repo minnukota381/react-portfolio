@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Type from './Typed'
-import Minnu from './Assets/minnu.png';
+import Minnu from './Assets/minnukota381.JPG';
 
 
 const Home = () => {
@@ -14,7 +14,8 @@ const Home = () => {
           </div>
           <div className="text-one">Hello there,</div>
           <div className="text-two">I'm Minnu</div>
-          <Type/>
+          <div className='text-three'><Type/></div>
+
         </div>
       </div>
     </section>

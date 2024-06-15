@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar'; // Assuming Navbar.js is in components folder
-import Home from './components/Home'; // Assuming Home.js is in components folder
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 import './App.css';
 

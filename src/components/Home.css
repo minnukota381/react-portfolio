@@ -1,5 +1,5 @@
 .home {
-    padding: 80px 0;
+    padding: 40px 0;
   }
   
   .home-content {
@@ -12,8 +12,8 @@
   }
   
   .home-circle {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
@@ -27,18 +27,20 @@
   .text-one {
     font-size: 2rem;
     font-weight: bold;
+    color: #fff;
     margin-top: 20px;
   }
   
   .text-two {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #8c00ff;
   }
   
   .text-three {
     margin-top: 20px;
-    font-size: 1.5rem;
+    color: #8c00ff;
+    font-size: 35px;
     font-weight: bold;
   }
   
