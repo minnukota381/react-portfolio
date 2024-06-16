@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import { RiContactsLine } from "react-icons/ri";
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { CgFileDocument } from "react-icons/cg";
 import { FaDiagramProject } from "react-icons/fa6";
 import { GrTechnology } from "react-icons/gr";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css';
+import './Navbar.css'; // Your custom styles
 import MinnuLogo from './Assets/minnu.png';
 
-const Navbar = () => {
+const CustomNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -16,57 +16,44 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div className="container">
-        <a className="navbar-brand" href="#home">
-          <img src={MinnuLogo} alt="Minnu" />
+    <Navbar expand="lg" variant="dark" fixed="top">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img
+            src={MinnuLogo}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="Minnu"
+          />{' '}
           Minnu
-        </a>
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          onClick={toggleNavbar} 
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#home">
-                <AiOutlineHome className="nav-icon" /> Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">
-                <AiOutlineUser className="nav-icon" /> About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#skills">
-                <GrTechnology className="nav-icon" /> Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#projects">
-                <FaDiagramProject className="nav-icon" /> Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#resume">
-                <CgFileDocument className="nav-icon" /> Resume
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">
-                <RiContactsLine className="nav-icon" /> Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarNav" onClick={toggleNavbar} />
+        <Navbar.Collapse id="navbarNav" className={isOpen ? 'show' : ''}>
+          <Nav className="ms-auto">
+            <Nav.Link href="#home">
+              <AiOutlineHome className="nav-icon" /> Home
+            </Nav.Link>
+            <Nav.Link href="#about">
+              <AiOutlineUser className="nav-icon" /> About
+            </Nav.Link>
+            <Nav.Link href="#skills">
+              <GrTechnology className="nav-icon" /> Skills
+            </Nav.Link>
+            <Nav.Link href="#projects">
+              <FaDiagramProject className="nav-icon" /> Projects
+            </Nav.Link>
+            <Nav.Link href="#resume">
+              <CgFileDocument className="nav-icon" /> Resume
+            </Nav.Link>
+            <Nav.Link href="#contact">
+              <RiContactsLine className="nav-icon" /> Contact
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default CustomNavbar;
