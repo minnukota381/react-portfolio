@@ -45,6 +45,20 @@
   transform-origin: bottom left;
 }
 
+.navbar.fixed-top {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
 @media (max-width: 768px) {
   .navbar-nav {
     flex-direction: column;
@@ -53,5 +67,14 @@
 
   .nav-item {
     margin-bottom: 10px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+    z-index: 999;
   }
 }
