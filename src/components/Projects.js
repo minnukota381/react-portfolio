@@ -4,6 +4,8 @@ import './Projects.css';
 import CUTMRP from './Assets/CUTMRP.png'
 import YTDL from './Assets/ytdl.png'
 import Todo from './Assets/todo.png'
+import SMDashboard from './Assets/smd.png'
+import FitnessTracker from './Assets/fitness.png'
 
 const projects = [
   {
@@ -29,10 +31,10 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Project Four',
-    description: 'Description for project four.',
-    imageUrl: 'https://via.placeholder.com/150',
-    link: '#'
+    title: 'Social Media Dashboard',
+    description: 'Description for project four.The Social Media Dashboard is a responsive web application built with React that provides users with an interface to manage their social media activities. The dashboard includes features like dark mode toggling, a responsive navbar, and various sections such as Dashboard, Followers, Posts, and Settings.',
+    imageUrl: SMDashboard,
+    link: 'https://social-media-dashboard-nep.vercel.app/'
   },
   {
     id: 5,
@@ -43,10 +45,10 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Project Six',
+    title: 'Fitness Tracking App',
     description: 'The Fitness Tracker Application is a React-based web application designed to help users monitor their fitness activities. It features an overview of their progress, activity cards, friends list, and more, making it easy to keep track of fitness goals and stay motivated.',
-    imageUrl: 'https://via.placeholder.com/150',
-    link: '#'
+    imageUrl: FitnessTracker,
+    link: 'https://fitness-tracking-app.vercel.app/'
   }
 ];
 
