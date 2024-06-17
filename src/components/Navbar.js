@@ -18,7 +18,7 @@ const CustomNavbar = () => {
   return (
     <Navbar expand="lg" variant="dark" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={MinnuLogo}
             width="30"

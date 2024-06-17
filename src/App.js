@@ -8,7 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Resume from "./components/Resume"; // Import the Resume component
+import Resume from "./components/Resume";
+import Projects from "./components/Projects"; // Import the Projects component
 
 function App() {
   const [init, setInit] = useState(false);
@@ -32,7 +33,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} /> {/* Add the Resume route */}
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/projects" element={<Projects />} /> {/* Add the Projects route */}
       </Routes>
     </Router>
   );
