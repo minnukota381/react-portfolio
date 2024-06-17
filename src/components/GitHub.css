@@ -1,0 +1,20 @@
+.github-container {
+  padding: 50px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.github-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.github-calendar-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.github-container svg {
+  max-width: 100%;
+}

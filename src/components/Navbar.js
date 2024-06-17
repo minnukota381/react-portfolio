@@ -31,22 +31,22 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="navbarNav" onClick={toggleNavbar} />
         <Navbar.Collapse id="navbarNav" className={isOpen ? 'show' : ''}>
           <Nav className="ms-auto">
-            <Nav.Link href="#home">
+            <Nav.Link href="/">
               <AiOutlineHome className="nav-icon" /> Home
             </Nav.Link>
-            <Nav.Link href="#about">
+            <Nav.Link href="/about">
               <AiOutlineUser className="nav-icon" /> About
             </Nav.Link>
-            <Nav.Link href="#skills">
+            <Nav.Link href="/skills">
               <GrTechnology className="nav-icon" /> Skills
             </Nav.Link>
-            <Nav.Link href="#projects">
+            <Nav.Link href="/projects">
               <FaDiagramProject className="nav-icon" /> Projects
             </Nav.Link>
-            <Nav.Link href="#resume">
+            <Nav.Link href="/resume">
               <CgFileDocument className="nav-icon" /> Resume
             </Nav.Link>
-            <Nav.Link href="#contact">
+            <Nav.Link href="/contact">
               <RiContactsLine className="nav-icon" /> Contact
             </Nav.Link>
           </Nav>
