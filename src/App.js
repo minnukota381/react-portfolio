@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Resume from "./components/Resume"; // Import the Resume component
 
 function App() {
   const [init, setInit] = useState(false);
@@ -27,11 +28,11 @@ function App() {
   return (
     <Router>
       {init && <Particles options={particlesOptions} />}
-
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About/>}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} /> {/* Add the Resume route */}
       </Routes>
     </Router>
   );
