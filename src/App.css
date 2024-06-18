@@ -1,17 +1,35 @@
+/* App.css */
+
+.App {
+  position: relative; /* Ensure relative positioning for child elements */
+}
+
+/* Scrollbar customization */
 ::-webkit-scrollbar {
-    width: 7px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #2d1950;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
-    border-radius: 12px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
-    border-radius: 12px;
-  }
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(178, 121, 216, 0.959);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(222, 130, 235, 0.911);
+  border-radius: 12px;
+}
+
+/* Custom class for navbar background color change */
+.navbar.scrolled {
+  background-color: transparent; /* Set background to transparent */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+.navbar {
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
