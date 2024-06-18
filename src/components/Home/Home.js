@@ -23,13 +23,28 @@ const Home = () => {
       <Row className="social-row">
         <Col className="social-col">
           <div className="social-links">
-            <a href="https://linkedin.com/in/minnukota381" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://linkedin.com/in/minnukota381"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
               <FaLinkedin className="social-icon" />
             </a>
-            <a href="https://github.com/minnukota381" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/minnukota381"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
               <FaGithub className="social-icon" />
             </a>
-            <a href="https://instagram.com/minnukota381" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://instagram.com/minnukota381"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
               <FaInstagram className="social-icon" />
             </a>
           </div>
@@ -40,3 +55,4 @@ const Home = () => {
 };
 
 export default Home;
+
