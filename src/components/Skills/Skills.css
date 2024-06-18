@@ -21,6 +21,11 @@
 .skill-icon.vercel { color: #ffffff; }
 .skill-icon.vscode { color: #007ACC; }
 .skill-icon.windows { color: #00A4EF; }
+.skill-icon.render { color: #46E3B7; }
+.skill-icon.express { color: #ffffff; }
+.skill-icon.springboot { color: #6DB33F; }
+.skill-icon.typescript { color: #3178C6; }
+.skill-icon.jquery { color: #0769AD; }
 
 .skills-container {
   max-width: 1200px;
