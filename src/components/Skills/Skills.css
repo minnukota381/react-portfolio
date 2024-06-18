@@ -1,0 +1,68 @@
+.skills-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+  }
+  
+  .skills-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Colors for specific skills */
+  .skill-icon.java { color: #f89820; }
+  .skill-icon.cpp { color: #00599C; }
+  .skill-icon.python { color: #3776AB; }
+  .skill-icon.c { color: #A8B9CC; }
+  .skill-icon.html { color: #E34F26; }
+  .skill-icon.css { color: #1572B6; }
+  .skill-icon.js { color: #F7DF1E; }
+  .skill-icon.bootstrap { color: #7952B3; }
+  .skill-icon.react { color: #61DAFB; }
+  .skill-icon.nodejs { color: #339933; }
+  .skill-icon.php { color: #777BB4; }
+  .skill-icon.flask { color: #000000; }
+  .skill-icon.mysql { color: #4479A1; }
+  .skill-icon.sqlite { color: #003B57; }
+  .skill-icon.mongodb { color: #47A248; }
+  .skill-icon.postgresql { color: #336791; }
+  .skill-icon.git { color: #F05032; }
+  .skill-icon.github { color: #181717; }
+  .skill-icon.terminal { color: #4D4D4D; }
+  .skill-icon.netlify { color: #00C7B7; }
+  .skill-icon.vercel { color: #000000; }
+  .skill-icon.vscode { color: #007ACC; }
+  .skill-icon.windows { color: #00A4EF; }
+  
+  .col span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
