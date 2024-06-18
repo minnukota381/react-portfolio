@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import "./App.css";
@@ -11,6 +11,7 @@ import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -56,9 +57,15 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
         </Routes>
+        <FooterVisibilityWrapper />
       </div>
     </Router>
   );
 }
+
+const FooterVisibilityWrapper = () => {
+  const location = useLocation();
+  return location.pathname !== "/" ? <Footer /> : null;
+};
 
 export default App;
