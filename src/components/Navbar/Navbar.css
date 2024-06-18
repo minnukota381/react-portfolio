@@ -46,6 +46,11 @@
   transform-origin: bottom left;
 }
 
+.nav-link:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+
 .navbar.fixed-top {
   position: fixed;
   width: 100%;
