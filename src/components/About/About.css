@@ -1,8 +1,14 @@
 .about-container {
     color: #ffffff;
-    padding: 90px 0;
+    padding-top: 90px;
     overflow-x: hidden;
+    
   }
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
   
 .profile-image {
     max-width: 100%;
