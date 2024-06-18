@@ -37,7 +37,6 @@ const About = () => {
         </Col>
       </Row>
     <GitHub />
-    <Footer/>
     </Container>
   );
 };

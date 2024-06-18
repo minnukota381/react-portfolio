@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Container fluid>
-        <Row className="">
+        <Row>
           <Col xs={12} md={6} className="text-center text-md-left mb-3 mb-md-0">
             <div className="social-links">
               <a
@@ -35,8 +35,7 @@ const Footer = () => {
           </Col>
           <Col xs={12} md={6} className="text-center text-md-right">
             <p className="footer-text">
-              &copy; {new Date().getFullYear()} Minnu. All Rights
-              Reserved.
+              &copy; {new Date().getFullYear()} Minnu. All Rights Reserved.
             </p>
           </Col>
         </Row>
