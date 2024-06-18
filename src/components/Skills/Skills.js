@@ -128,7 +128,7 @@ const Skills = () => {
             <span>Netlify</span>
           </Col>
         </Row>
-        <Row className="row">
+        <Row>
           <Col className="col-skills">
             <SiVercel className="skill-icon vercel" />
             <span>Vercel</span>
