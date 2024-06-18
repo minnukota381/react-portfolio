@@ -1,0 +1,101 @@
+.home {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-content {
+  max-width: 800px;
+  padding-top: 100px;
+
+  margin: 0 auto;
+}
+
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.text {
+  margin-top: 40px;
+}
+
+.home-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.home-circle img {
+  width: 100%;
+  height: auto;
+}
+
+.text-one {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.text-two {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #8c00ff;
+}
+
+.text-three {
+  margin-top: 20px;
+  color: #8c00ff;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.pre-style {
+  display: inline-block;
+  width: 10px;
+  height: 100%;
+  background-color: #8c00ff;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+}
+
+.social-links a:hover {
+  color: #8c00ff;
+}
+
+.social-links i {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .text-two {
+    font-size: 2.5rem;
+  }
+  .text-three{
+    font-size: 2.5rem;
+  }
+}

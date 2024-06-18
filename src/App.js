@@ -5,11 +5,11 @@ import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Projects from "./components/Projects";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Resume from "./components/Resume/Resume";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const [init, setInit] = useState(false);
