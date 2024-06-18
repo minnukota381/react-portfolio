@@ -21,11 +21,18 @@
 
 .nav-link {
   color: #ffffff !important;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
   font-size: 1.2rem;
   margin-left: 25px;
   position: relative;
   font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.021);
+  transform: scale(1.1);
 }
 
 .nav-link::before {
@@ -44,11 +51,6 @@
 .nav-link:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-
-.nav-link:hover {
-  transition: all 0.3s ease;
-  transform: scale(1.1);
 }
 
 .navbar.fixed-top {
