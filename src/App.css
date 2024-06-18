@@ -1,10 +1,7 @@
-/* App.css */
-
 .App {
-  position: relative; /* Ensure relative positioning for child elements */
+  position: relative;
 }
 
-/* Scrollbar customization */
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -23,13 +20,14 @@
   border-radius: 12px;
 }
 
-/* Custom class for navbar background color change */
 .navbar.scrolled {
-  background-color: transparent; /* Set background to transparent */
-  backdrop-filter: blur(10px); /* Apply blur effect */
-  transition: background 0.3s ease; /* Smooth transition for background */
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
 }
 
 .navbar {
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  transition: background-color 0.3s ease;
 }
