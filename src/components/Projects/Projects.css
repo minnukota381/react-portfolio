@@ -1,4 +1,3 @@
-/* Ensuring the container is centered and uses full width correctly */
 .projects-container {
   padding-top: 120px;
   color: #ffffff;
@@ -8,7 +7,6 @@
   margin: 0 auto;
 }
 
-/* Styling for project titles */
 .projects-title {
   margin-bottom: 1.5rem;
   font-size: 3rem;
@@ -16,16 +14,14 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Ensuring no overflow for project rows */
 .project-row {
   padding: 0 1rem;
-  margin: 0;  /* Remove any extra margins */
+  margin: 0;
 }
 
-/* Ensuring no overflow for project cards */
 .project-card {
   border: none;
-  width: 100%;  /* Full width within the column */
+  width: 100%;
   border-radius: 30px;
   background-color: transparent;
   overflow: hidden;
@@ -33,7 +29,7 @@
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  margin-bottom: 2rem;  /* Space between cards */
+  margin-bottom: 2rem;
 }
 
 .project-card:hover {
@@ -41,7 +37,6 @@
   transform: translateY(-5px);
 }
 
-/* Ensuring no overflow for images */
 .project-card .card-img-top {
   padding: 20px;
   border-radius: 30px;
@@ -80,7 +75,6 @@
   transform: translateY(-2px);
 }
 
-/* Ensuring responsiveness and no overflow for small screens */
 @media (max-width: 767px) {
   .projects-title {
     font-size: 2rem;
