@@ -9,7 +9,7 @@
   
   .social-links {
     margin-bottom: 10px;
-    margin-top: 10px; /* Added margin-top to match footer-text */
+    margin-top: 10px;
   }
   
   .social-links a {
@@ -28,7 +28,7 @@
   
   .footer-text {
     font-size: 18px;
-    margin-top: 10px; /* Added margin-top to match social-links */
+    margin-top: 10px;
   }
   
   @media (max-width: 576px) {
