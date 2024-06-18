@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <Container className="skills-container">
       <h2 className="skills-heading">Programming Languages</h2>
-      <Row className="row">
+      <Row className="row PL">
         <Col className="col">
           <FaJava className="skill-icon java" />
           <span>Java</span>
@@ -29,8 +29,9 @@ const Skills = () => {
         </Col>
       </Row>
 
-      <h2 className="skills-heading">Web Technologies</h2>
-      <Row className="row">
+      <h2 className="skills-heading ">Web Technologies</h2>
+      <Row className="row WT">  
+      <Row>
         <Col className="col">
           <FaHtml5 className="skill-icon html" />
           <span>HTML</span>
@@ -48,7 +49,7 @@ const Skills = () => {
           <span>Bootstrap</span>
         </Col>
       </Row>
-      <Row className="row">
+      <Row>
         <Col className="col">
           <DiReact className="skill-icon react" />
           <span>React.js</span>
@@ -66,9 +67,10 @@ const Skills = () => {
           <span>Flask</span>
         </Col>
       </Row>
-
+      </Row>
+      
       <h2 className="skills-heading">Databases</h2>
-      <Row className="row">
+      <Row className="row DB">
         <Col className="col">
           <DiMysql className="skill-icon mysql" />
           <span>MySQL</span>
@@ -88,6 +90,7 @@ const Skills = () => {
       </Row>
 
       <h2 className="skills-heading">Tools and Platforms</h2>
+      <Row className="row TP"> 
       <Row className="row">
         <Col className="col">
           <DiGit className="skill-icon git" />
@@ -120,6 +123,8 @@ const Skills = () => {
           <span>Windows</span>
         </Col>
       </Row>
+      </Row>
+
     </Container>
   );
 };
