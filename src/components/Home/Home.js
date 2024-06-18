@@ -1,12 +1,13 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import "./Home.css";
 import Minnu from "../Assets/minnukota381.JPG";
 import Type from "./Typed";
 
 const Home = () => {
   return (
-    <div className="home">
+    <Container fluid className="home">
       <Row className="home-content text-center">
         <Col className="text">
           <div className="home-circle">
@@ -19,7 +20,22 @@ const Home = () => {
           </div>
         </Col>
       </Row>
-    </div>
+      <Row className="social-row">
+        <Col className="social-col">
+          <div className="social-links">
+            <a href="https://linkedin.com/in/minnukota381" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="social-icon" />
+            </a>
+            <a href="https://github.com/minnukota381" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="social-icon" />
+            </a>
+            <a href="https://instagram.com/minnukota381" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="social-icon" />
+            </a>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
