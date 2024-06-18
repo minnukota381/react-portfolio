@@ -20,14 +20,14 @@
   background-color: transparent;
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 6px 10px rgba(94, 94, 94, 0.74), 0 8px 12px rgba(83, 83, 83, 0.619);
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   margin-right: -15px;
 }
 
 .project-card:hover {
-  box-shadow: 0 14px 28px rgba(239, 239, 239, 0.74), 0 10px 10px rgba(250, 250, 250, 0.619);
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
   transform: translateY(-5px);
 }
 
