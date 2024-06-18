@@ -1,6 +1,7 @@
 .footer {
     background-color: #8686861a;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     color: #fff;
     width: 100%;
     overflow-x: hidden;
