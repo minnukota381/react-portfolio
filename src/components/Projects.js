@@ -24,7 +24,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'SMart Pond Monitoring IoT',
+    title: 'Smart Pond Monitoring IoT',
     description: 'Description for project three.',
     imageUrl: 'https://via.placeholder.com/150',
     link: '#'
