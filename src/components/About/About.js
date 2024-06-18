@@ -4,7 +4,6 @@ import './About.css';
 import ProfileImage from '../Assets/minnu_logo.png';
 import ResumePDF from '../Assets/Resume.pdf';
 import GitHub from './GitHub';
-import Footer from '../Footer/Footer'
 import '../Footer/Footer.css'
 
 const About = () => {
