@@ -22,6 +22,7 @@
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   box-shadow: 0 6px 10px rgba(94, 94, 94, 0.74), 0 8px 12px rgba(83, 83, 83, 0.619);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   margin-right: -15px;
 }
 
