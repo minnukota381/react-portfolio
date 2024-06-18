@@ -12,6 +12,7 @@ import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -56,6 +57,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <FooterVisibilityWrapper />
       </div>
