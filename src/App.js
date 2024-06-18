@@ -15,27 +15,46 @@ function App() {
   const [init, setInit] = useState(false);
 
   useEffect(() => {
-    if (init) {
-      return;
+    if (!init) {
+      initParticlesEngine(async (engine) => {
+        await loadFull(engine);
+      }).then(() => {
+        setInit(true);
+      });
     }
-
-    initParticlesEngine(async (engine) => {
-      await loadFull(engine);
-    }).then(() => {
-      setInit(true);
-    });
   }, [init]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbar = document.querySelector('.navbar');
+      if (navbar) {
+        if (window.scrollY > 50) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <Router>
       {init && <Particles options={particlesOptions} />}
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects />} /> {/* Add the Projects route */}
-      </Routes>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} /> {/* Add the Projects route */}
+        </Routes>
+      </div>
     </Router>
   );
 }
