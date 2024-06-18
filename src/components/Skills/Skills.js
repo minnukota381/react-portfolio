@@ -6,8 +6,6 @@ import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, S
 import { CgCPlusPlus } from "react-icons/cg";
 import "./Skills.css";
 import { FaC } from "react-icons/fa6";
-import Footer from '../Footer/Footer';
-
 
 const Skills = () => {
   return (
