@@ -1,17 +1,21 @@
-// Skills.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaJava, FaPython, FaCss3, FaHtml5, FaCode } from "react-icons/fa";
+import { FaJava, FaPython, FaCss3, FaHtml5} from "react-icons/fa";
 import { DiJavascript1, DiNodejsSmall, DiReact, DiWindows, DiTerminal, DiGit, DiGithubBadge, DiMongodb, DiMysql, DiPostgresql, DiVisualstudio } from "react-icons/di";
 import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, SiExpress, SiJquery, SiTypescript, SiSpringboot } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import "./Skills.css";
+import { FaC } from "react-icons/fa6";
 
 const Skills = () => {
   return (
     <Container className="skills-container">
       <h2 className="skills-heading">Programming Languages</h2>
       <Row className="row PL">
+        <Col className="col-skills">
+          <FaC className="skill-icon c" />
+          <span>C</span>
+        </Col>
         <Col className="col-skills">
           <FaJava className="skill-icon java" />
           <span>Java</span>
@@ -23,10 +27,6 @@ const Skills = () => {
         <Col className="col-skills">
           <FaPython className="skill-icon python" />
           <span>Python</span>
-        </Col>
-        <Col className="col-skills">
-          <FaCode className="skill-icon c" />
-          <span>C</span>
         </Col>
       </Row>
 
