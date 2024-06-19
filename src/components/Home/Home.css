@@ -111,7 +111,8 @@
     margin-top: 50px;
   }
   .text-two {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-top: 0 !important;
   }
   .text-three {
     font-size: 2rem;
