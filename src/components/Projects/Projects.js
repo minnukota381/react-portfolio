@@ -6,6 +6,7 @@ import YTDL from '../Assets/ytdl.png'
 import Todo from '../Assets/todo.png'
 import SMDashboard from '../Assets/smd.png'
 import FitnessTracker from '../Assets/fitness.png'
+import SmartPond from '../Assets/SPMS.png'
 
 const projects = [
   {
@@ -26,7 +27,7 @@ const projects = [
     id: 3,
     title: 'Smart Pond Monitoring IoT',
     description: 'Description for project three.',
-    imageUrl: '',
+    imageUrl: 'SmartPond',
     link: ''
   },
   {
