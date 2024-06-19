@@ -112,10 +112,10 @@
   }
   .text-two {
     font-size: 3rem;
-    margin-top: 20px; 
   }
   .text-three {
     font-size: 2rem;
-    margin-top: 20px;
+    margin-top: 0 !important;
+    margin-bottom: 10px;
   }
 }
