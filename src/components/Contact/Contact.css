@@ -9,8 +9,10 @@ html, body {
 
 .contact-form h2 {
   font-size: 3rem;
+  font-weight: 900;
   margin-bottom: 20px;
   color: #fff;
+
 }
 
 .contact-svg {
@@ -47,6 +49,10 @@ html, body {
 
 .button-submit{
   background-color: darkblue;
+}
+
+.button-submit:hover{
+  
 }
 
 @media (max-width: 768px) {
