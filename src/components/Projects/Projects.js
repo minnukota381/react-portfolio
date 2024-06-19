@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     title: 'Smart Pond Monitoring IoT',
     description: 'SmartPond is a cutting-edge project aimed at monitoring various parameters of ponds to ensure optimal conditions for aquatic life. Our mission is to utilize technology to safeguard the health and well-being of aquatic ecosystems.',
-    imageUrl: 'SmartPond',
+    imageUrl: SmartPond,
     link: ''
   },
   {
