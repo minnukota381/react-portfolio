@@ -47,6 +47,7 @@ To run this project locally, follow these steps:
    ```bash
    cd react-portfolio
    ```
+
 3. Install dependencies:
 
    ```bash
