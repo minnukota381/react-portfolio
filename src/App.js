@@ -13,6 +13,7 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
+import StarsCanvas from "./components/StarCanvas";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -51,6 +52,7 @@ function App() {
       {init && <Particles options={particlesOptions} />}
       <div className="App">
         <Navbar />
+        <StarsCanvas />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
