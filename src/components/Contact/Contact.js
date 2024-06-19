@@ -30,7 +30,7 @@ const Contact = () => {
               <Form.Control as="textarea" rows={5} placeholder="Your Message" required />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className='button-submit'>
               Submit
             </Button>
           </Form>

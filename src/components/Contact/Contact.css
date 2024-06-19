@@ -45,6 +45,10 @@ html, body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.button-submit{
+  background-color: darkblue;
+}
+
 @media (max-width: 768px) {
   .contact-form h2 {
     font-size: 2rem;
