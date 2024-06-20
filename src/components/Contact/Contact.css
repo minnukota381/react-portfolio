@@ -49,9 +49,10 @@ html, body {
 .button-submit{
   background-color: rgb(0, 0, 98);
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px 15px;
-  border: none;
+  /* border: none; */
+  border-color: rgb(0, 0, 151);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
