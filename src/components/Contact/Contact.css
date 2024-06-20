@@ -4,6 +4,11 @@ html, body {
 
 .contact-container {
   padding: 80px 0;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .contact-form h2 {
