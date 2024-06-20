@@ -4,7 +4,6 @@ html, body {
 
 .contact-container {
   padding: 80px 0;
-  /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 .contact-form h2 {
@@ -12,7 +11,7 @@ html, body {
   font-weight: 900;
   margin-bottom: 20px;
   color: #fff;
-
+  text-align: center;
 }
 
 .contact-svg {
@@ -46,18 +45,19 @@ html, body {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.button-submit{
+.button-submit {
   background-color: rgb(0, 0, 98);
   color: #fff;
   border-radius: 10px;
   padding: 10px 15px;
-  /* border: none; */
   border-color: rgb(0, 0, 151);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  display: block;
+  margin: 0 auto;
 }
 
-.button-submit:hover{
+.button-submit:hover {
   background-color: rgb(0, 0, 61);
   box-shadow: 0 6px 12px rgb(38, 38, 157);
   transform: translateY(-2px);
@@ -67,5 +67,12 @@ html, body {
 @media (max-width: 768px) {
   .contact-form h2 {
     font-size: 2rem;
+  }
+  .contact-form {
+    text-align: center;
+  }
+  .contact-form .form-control {
+    width: 90%;
+    margin: 0 auto 20px;
   }
 }
