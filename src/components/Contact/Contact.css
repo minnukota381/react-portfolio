@@ -31,7 +31,6 @@ html, body {
 
 .form-control {
   background-color: transparent;
-
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   color: #fff;
@@ -48,11 +47,20 @@ html, body {
 }
 
 .button-submit{
-  background-color: darkblue;
+  background-color: rgb(0, 0, 98);
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .button-submit:hover{
-  
+  background-color: rgb(0, 0, 61);
+  box-shadow: 0 6px 12px rgb(38, 38, 157);
+  transform: translateY(-2px);
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
