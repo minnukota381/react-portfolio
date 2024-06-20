@@ -39,6 +39,11 @@ html, body {
 
 .form-control:focus {
   background-color: rgba(0, 0, 0, 0.342);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
 }
 
 .form-control::placeholder {
