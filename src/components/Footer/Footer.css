@@ -25,6 +25,7 @@
   
   .social-links .social-icon {
     font-size: 1.5rem;
+    margin-bottom: 10px;
   }
   
   .footer-text {
@@ -35,6 +36,19 @@
   @media (max-width: 576px) {
     .footer {
       padding: 10px 0;
+    }
+
+    .footer-text {
+      font-size: 16px;
+      margin-top: 0;
+    }
+
+    .social-links .social-icon {
+      margin-bottom: 0;
+      }
+
+    .social-links a {
+      margin: 0 5px;
     }
   }
   
