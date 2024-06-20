@@ -2,22 +2,26 @@
   position: relative;
 }
 
-::-webkit-scrollbar {
-  width: 7px;
+body::-webkit-scrollbar {
+  width: 0.5rem;
 }
 
-::-webkit-scrollbar-track {
-  background: #2d1950;
+body::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
-  border-radius: 12px;
+body::-webkit-scrollbar-thumb {
+  background: rgba(97, 0, 161, 0.5);
+  border-radius: 0.25rem;
+  transition: background 0.3s ease-in-out;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
-  border-radius: 12px;
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(97, 0, 161, 0.8);
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background: rgba(97, 0, 161, 1);
 }
 
 .navbar.scrolled {
