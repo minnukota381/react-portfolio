@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './Resume.css'; // Add your custom styles here if needed
-import ResumePDF from '../Assets/Resume.pdf'; // Ensure the path to your resume PDF is correct
+import './Resume.css';
+import ResumePDF from '../Assets/Resume.pdf';
 
 const Resume = () => {
   return (

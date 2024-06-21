@@ -36,7 +36,7 @@ const CustomNavbar = () => {
         >
           {isOpen ? (
             <Button variant="link" className="close-button">
-              <IoMdClose className="close-icon" /> {/* Use the close icon */}
+              <IoMdClose className="close-icon" />
             </Button>
           ) : (
             <span className="navbar-toggler-icon"></span>
