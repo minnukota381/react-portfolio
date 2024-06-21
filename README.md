@@ -1,6 +1,6 @@
 # Minnu's Portfolio
 
-This portfolio showcases my skills, projects, and contact information in a visually appealing way using React, Three.js, and other libraries.
+This portfolio showcases my skills, projects, and contact information in a visually appealing way using React, Three.js, and other libraries. It provides an interactive and visually engaging platform for users to explore my projects, technical skills, and experiences in web development.
 
 ## Table of Contents
 
@@ -86,3 +86,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
