@@ -17,7 +17,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.4.0",
     "bootstrap": "^5.3.3",
-    "framer-motion": "^11.2.11",
+    "framer-motion": "^11.2.12",
     "maath": "^0.10.7",
     "random": "^4.1.0",
     "react": "^18.3.1",
