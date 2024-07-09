@@ -26,6 +26,13 @@
 .skill-icon.springboot { color: #6DB33F; }
 .skill-icon.typescript { color: #3178C6; }
 .skill-icon.jquery { color: #0769AD; }
+.skill-icon.angular { color: #DD0031; }
+.skill-icon.sass { color: #CC6699; }
+.skill-icon.aws { color: #FF9900; }
+.skill-icon.graphql { color: #E10098; }
+.skill-icon.restapi { color: #000000; }
+.skill-icon.qiskit { color: #ffffff; }
+
 
 .skills-container {
   max-width: 1200px;

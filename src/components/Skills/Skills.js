@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaJava, FaPython, FaCss3, FaHtml5} from "react-icons/fa";
-import { DiJavascript1, DiNodejsSmall, DiReact, DiWindows, DiTerminal, DiGit, DiGithubBadge, DiMongodb, DiMysql, DiPostgresql, DiVisualstudio } from "react-icons/di";
-import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, SiExpress, SiJquery, SiTypescript, SiSpringboot } from "react-icons/si";
+import { DiJavascript1, DiNodejsSmall, DiReact, DiTerminal, DiGit, DiGithubBadge, DiMongodb, DiMysql, DiPostgresql, DiVisualstudio, DiSass } from "react-icons/di";
+import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, SiExpress, SiJquery, SiTypescript, SiSpringboot, SiGraphql, SiQiskit } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import "./Skills.css";
-import { FaC } from "react-icons/fa6";
+import { FaAngular, FaAws, FaC } from "react-icons/fa6";
 
 const Skills = () => {
   return (
@@ -17,12 +17,12 @@ const Skills = () => {
           <span>C</span>
         </Col>
         <Col className="col-skills">
-          <FaJava className="skill-icon java" />
-          <span>Java</span>
-        </Col>
-        <Col className="col-skills">
           <CgCPlusPlus className="skill-icon cpp" />
           <span>C++</span>
+        </Col>
+        <Col className="col-skills">
+          <FaJava className="skill-icon java" />
+          <span>Java</span>
         </Col>
         <Col className="col-skills">
           <FaPython className="skill-icon python" />
@@ -56,6 +56,24 @@ const Skills = () => {
             <span>React.js</span>
           </Col>
           <Col className="col-skills">
+            <FaAngular className="skill-icon angular" />
+            <span>Angular</span>
+          </Col>
+          <Col className="col-skills">
+            <DiSass className="skill-icon sass" />
+            <span>SASS</span>
+          </Col>
+          <Col className="col-skills">
+            <SiTypescript className="skill-icon typescript" />
+            <span>TypeScript</span>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="col-skills">
+            <SiJquery className="skill-icon jquery" />
+            <span>jQuery</span>
+          </Col>
+          <Col className="col-skills">
             <SiFlask className="skill-icon flask" />
             <span>Flask</span>
           </Col>
@@ -74,16 +92,16 @@ const Skills = () => {
             <span>PHP</span>
           </Col>
           <Col className="col-skills">
-            <SiJquery className="skill-icon jquery" />
-            <span>jQuery</span>
-          </Col>
-          <Col className="col-skills">
-            <SiTypescript className="skill-icon typescript" />
-            <span>TypeScript</span>
-          </Col>
-          <Col className="col-skills">
             <SiSpringboot className="skill-icon springboot" />
             <span>Spring Boot</span>
+          </Col>
+          <Col className="col-skills">
+            <SiGraphql className="skill-icon graphql" />
+            <span>GraphQL</span>
+          </Col>
+          <Col className="col-skills">
+            <FaAws className="skill-icon aws" />
+            <span>AWS</span>
           </Col>
         </Row>
       </Row>
@@ -124,22 +142,22 @@ const Skills = () => {
             <span>Terminal</span>
           </Col>
           <Col className="col-skills">
-            <SiNetlify className="skill-icon netlify" />
-            <span>Netlify</span>
+            <DiVisualstudio className="skill-icon vscode" />
+            <span>VS Code</span>
           </Col>
         </Row>
         <Row>
+        <Col className="col-skills">
+          <SiQiskit className="skill-icon qiskit" />
+          <span>Qiskit</span>
+        </Col>
           <Col className="col-skills">
             <SiVercel className="skill-icon vercel" />
             <span>Vercel</span>
           </Col>
           <Col className="col-skills">
-            <DiVisualstudio className="skill-icon vscode" />
-            <span>VS Code</span>
-          </Col>
-          <Col className="col-skills">
-            <DiWindows className="skill-icon windows" />
-            <span>Windows</span>
+            <SiNetlify className="skill-icon netlify" />
+            <span>Netlify</span>
           </Col>
           <Col className="col-skills">
             <SiRender className="skill-icon render" />
