@@ -33,7 +33,7 @@ const projects = [
   {
     id: 4,
     title: 'Social Media Dashboard',
-    description: 'The Social Media Dashboard is a responsive web application built with React that provides users with an interface to manage their social media activities. The dashboard includes features like dark mode toggling, a responsive navbar, and various sections such as Dashboard, Followers, Posts, and Settings.',
+    description: 'The Social Media Dashboard is a responsive web site built with React that provides users with an interface to manage their social media activities. The dashboard includes features like dark mode toggling, a responsive navbar, and various sections such as Dashboard, Followers, Posts, and Settings.',
     imageUrl: SMDashboard,
     link: 'https://social-media-dashboard-nep.vercel.app/'
   },
