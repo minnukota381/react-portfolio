@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaJava, FaPython, FaCss3, FaHtml5} from "react-icons/fa";
 import { DiJavascript1, DiNodejsSmall, DiReact, DiTerminal, DiGit, DiGithubBadge, DiMongodb, DiMysql, DiPostgresql, DiVisualstudio, DiSass } from "react-icons/di";
-import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, SiExpress, SiJquery, SiTypescript, SiSpringboot, SiGraphql, SiQiskit } from "react-icons/si";
+import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, SiExpress, SiJquery, SiTypescript, SiSpringboot, SiGraphql, SiQiskit, SiPostman } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import "./Skills.css";
 import { FaAngular, FaAws, FaC } from "react-icons/fa6";
@@ -96,8 +96,8 @@ const Skills = () => {
             <span>Spring Boot</span>
           </Col>
           <Col className="col-skills">
-            <SiGraphql className="skill-icon graphql" />
-            <span>GraphQL</span>
+            <SiPostman className="skill-icon postman" />
+            <span>Postman</span>
           </Col>
           <Col className="col-skills">
             <FaAws className="skill-icon aws" />
