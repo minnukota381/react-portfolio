@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import './About.css';
 import ProfileImage from '../Assets/minnu_logo.png';
 import ResumePDF from '../Assets/Resume.pdf';
-import GitHub from './GitHub';
+// import GitHub from './GitHub';
 import '../Footer/Footer.css'
 
 const About = () => {
@@ -35,7 +35,7 @@ const About = () => {
           </div>
         </Col>
       </Row>
-    <GitHub />
+    {/* <GitHub /> */}
     </Container>
   );
 };
