@@ -18,7 +18,7 @@
     "@tsparticles/slim": "^3.5.0",
     "bootstrap": "^5.3.3",
     "date-fns": "^4.1.0",
-    "framer-motion": "^11.17.0",
+    "framer-motion": "^11.18.1",
     "maath": "^0.10.8",
     "random": "^5.1.1",
     "react": "^18.3.1",
