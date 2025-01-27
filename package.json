@@ -15,7 +15,7 @@
     "@tsparticles/plugin-emitters-shape-circle": "^3.7.1",
     "@tsparticles/plugin-emitters-shape-square": "^3.7.1",
     "@tsparticles/react": "^3.0.0",
-    "@tsparticles/slim": "^3.5.0",
+    "@tsparticles/slim": "^3.8.0",
     "bootstrap": "^5.3.3",
     "date-fns": "^4.1.0",
     "framer-motion": "^11.18.1",
