@@ -10,7 +10,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^14.6.1",
-    "@tsparticles/engine": "^3.7.1",
+    "@tsparticles/engine": "^3.8.1",
     "@tsparticles/plugin-emitters": "^3.8.0",
     "@tsparticles/plugin-emitters-shape-circle": "^3.7.1",
     "@tsparticles/plugin-emitters-shape-square": "^3.7.1",
