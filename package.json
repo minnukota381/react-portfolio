@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^14.6.1",
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/plugin-emitters": "^3.8.0",
-    "@tsparticles/plugin-emitters-shape-circle": "^3.7.1",
+    "@tsparticles/plugin-emitters-shape-circle": "^3.8.1",
     "@tsparticles/plugin-emitters-shape-square": "^3.7.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
