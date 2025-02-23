@@ -5,7 +5,7 @@
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.20",
     "@popperjs/core": "^2.11.8",
-    "@react-three/drei": "^9.121.4",
+    "@react-three/drei": "^9.121.5",
     "@react-three/fiber": "^8.17.12",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
