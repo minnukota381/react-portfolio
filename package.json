@@ -21,7 +21,7 @@
     "framer-motion": "^12.5.0",
     "maath": "^0.10.8",
     "random": "^5.3.0",
-    "react": "^19.0.0",
+    "react": "^19.1.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
     "react-github-calendar": "^4.5.6",
