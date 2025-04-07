@@ -6,7 +6,7 @@
     "@mediapipe/tasks-vision": "^0.10.21",
     "@popperjs/core": "^2.11.8",
     "@react-three/drei": "^10.0.5",
-    "@react-three/fiber": "^9.1.0",
+    "@react-three/fiber": "^9.1.2",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.6.1",
