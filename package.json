@@ -8,7 +8,7 @@
     "@react-three/drei": "^10.0.5",
     "@react-three/fiber": "^9.1.2",
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
+    "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/plugin-emitters": "^3.8.0",
