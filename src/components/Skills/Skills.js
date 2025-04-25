@@ -1,8 +1,23 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaJava, FaPython, FaCss3, FaHtml5} from "react-icons/fa";
+import { FaJava, FaPython, FaCss3, FaHtml5, FaGitlab} from "react-icons/fa";
 import { DiJavascript1, DiNodejsSmall, DiReact, DiTerminal, DiGit, DiGithubBadge, DiMongodb, DiMysql, DiPostgresql, DiVisualstudio, DiSass } from "react-icons/di";
-import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, SiExpress, SiJquery, SiTypescript, SiSpringboot, SiQiskit, SiPostman } from "react-icons/si";
+import {
+  SiBootstrap,
+  SiPhp,
+  SiFlask,
+  SiSqlite,
+  SiVercel,
+  SiNetlify,
+  SiRender,
+  SiExpress,
+  SiJquery,
+  SiTypescript,
+  SiSpringboot,
+  SiQiskit,
+  SiPostman,
+  SiSwagger,
+} from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import "./Skills.css";
 import { FaAngular, FaAws, FaC } from "react-icons/fa6";
@@ -70,10 +85,6 @@ const Skills = () => {
         </Row>
         <Row>
           <Col className="col-skills">
-            <SiJquery className="skill-icon jquery" />
-            <span>jQuery</span>
-          </Col>
-          <Col className="col-skills">
             <SiFlask className="skill-icon flask" />
             <span>Flask</span>
           </Col>
@@ -88,8 +99,8 @@ const Skills = () => {
         </Row>
         <Row>
           <Col className="col-skills">
-            <SiPhp className="skill-icon php" />
-            <span>PHP</span>
+            <SiSwagger className="skill-icon swagger" />
+            <span>Swagger</span>
           </Col>
           <Col className="col-skills">
             <SiSpringboot className="skill-icon springboot" />
@@ -147,10 +158,10 @@ const Skills = () => {
           </Col>
         </Row>
         <Row>
-        <Col className="col-skills">
-          <SiQiskit className="skill-icon qiskit" />
-          <span>Qiskit</span>
-        </Col>
+          <Col className="col-skills">
+            <SiQiskit className="skill-icon qiskit" />
+            <span>Qiskit</span>
+          </Col>
           <Col className="col-skills">
             <SiVercel className="skill-icon vercel" />
             <span>Vercel</span>
@@ -162,6 +173,10 @@ const Skills = () => {
           <Col className="col-skills">
             <SiRender className="skill-icon render" />
             <span>Render</span>
+          </Col>
+          <Col className="col-skills">
+            <FaGitlab className="skill-icon gitlab" />
+            <span>GitLab</span>
           </Col>
         </Row>
       </Row>

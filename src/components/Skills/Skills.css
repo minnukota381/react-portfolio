@@ -33,6 +33,17 @@
 .skill-icon.postman { color: #ff6200; }
 .skill-icon.restapi { color: #000000; }
 .skill-icon.qiskit { color: #ffffff; }
+.skill-icon.swagger { color: #85b6ff;}
+.skill-icon.gitlab { color: #fca326; }
+
+/* .skill-icon.swagger:hover {
+  color: #6c8bff;
+} */
+
+/* .skill-icon.gitlab:hover {
+  transform: scale(1.1);
+  color: #d18b00; 
+} */
 
 
 .skills-container {
