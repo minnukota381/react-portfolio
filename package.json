@@ -5,7 +5,7 @@
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.21",
     "@popperjs/core": "^2.11.8",
-    "@react-three/drei": "^10.0.8",
+    "@react-three/drei": "^10.1.2",
     "@react-three/fiber": "^9.1.2",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -18,7 +18,7 @@
     "@tsparticles/slim": "^3.8.1",
     "bootstrap": "^5.3.6",
     "date-fns": "^4.1.0",
-    "framer-motion": "^12.12.1",
+    "framer-motion": "^12.15.0",
     "maath": "^0.10.8",
     "random": "^5.4.0",
     "react": "^19.1.0",
@@ -32,7 +32,7 @@
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.8.1",
     "typewriter-effect": "^2.22.0",
-    "web-vitals": "^5.0.1"
+    "web-vitals": "^5.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
