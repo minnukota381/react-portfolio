@@ -20,7 +20,7 @@
     "date-fns": "^4.1.0",
     "framer-motion": "^12.23.5",
     "maath": "^0.10.8",
-    "random": "^5.4.0",
+    "random": "^5.4.1",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
