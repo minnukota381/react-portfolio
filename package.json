@@ -13,7 +13,7 @@
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/plugin-emitters": "^3.8.0",
     "@tsparticles/plugin-emitters-shape-circle": "^3.8.1",
-    "@tsparticles/plugin-emitters-shape-square": "^3.7.1",
+    "@tsparticles/plugin-emitters-shape-square": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
     "bootstrap": "^5.3.7",
