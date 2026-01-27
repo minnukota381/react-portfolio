@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mediapipe/tasks-vision": "^0.10.21",
+    "@mediapipe/tasks-vision": "^0.10.32",
     "@popperjs/core": "^2.11.8",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
